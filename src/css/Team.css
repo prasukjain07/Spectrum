@@ -1,0 +1,45 @@
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 8vh;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    z-index: 5;
+}
+
+.pageContainer{
+    width: 100vw;
+    height: 2000vh;
+    z-index: 99;
+    background-color: black;
+}
+
+/* Team.css */
+
+/* Team.css */
+
+.team-container {
+    height: 100vh; /* Set the height to fill the viewport height */
+    overflow: auto; /* Enable scrolling */
+}
+
+/* Other styles for your content can go here */
+
+
+/* Other styles for your content can go here */
+/* Hide scrollbar for Firefox */
+.team-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Safari */
+.team-container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}

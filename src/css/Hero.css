@@ -1,0 +1,38 @@
+.landing-container {
+    position: absolute;
+    height:100vh;
+    width: 100vw;
+}
+
+canvas {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the canvas is behind other elements */
+}
+
+.overlap-items{
+    position: relative;
+}
+
+.overlay-content {
+    position: relative; /* Make sure the overlaying content respects the container's position */
+    z-index: 1; /* Ensure the overlaying content is above the canvas */
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+	height: 100%;
+    z-index: -1;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    color: aliceblue;
+}
+

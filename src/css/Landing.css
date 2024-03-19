@@ -1,0 +1,70 @@
+.spectrum{
+    width: 70vw;
+    justify-self: center;
+    position: absolute;
+    top:32vh;
+    z-index: 5;
+
+}
+.overlap-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+/* .main-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+.text{
+    position: absolute;
+    top: calc(48vh + 12vw);
+    height: 10vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
+.logos{
+    height: 10vh;
+    position: absolute;
+    top: 12vh;
+    width: auto;
+    align-self: center;
+}
+.logo{
+    height: 10vh;
+    margin: 2vh;
+}
+.btns{
+    position: absolute;
+    top: calc(32vh + 8vw + 12vh);
+}
+.btn{
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    margin: 1vh;
+    background-color: rgb(207, 204, 204, 0.5);
+    color: black;
+    font-size: 20px;
+}
+
+@media (max-width:900px) {
+    .logos{
+        position: absolute;
+        top: calc(25vh - 10vw )
+    }
+    .logo{
+        height: 10vw;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        top: calc(46vh)
+    }
+    .text{
+        top: calc(64vh)
+    }
+}

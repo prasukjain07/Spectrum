@@ -1,0 +1,11 @@
+.text-wrapper {
+    margin: 3vh;
+    color: white; /* Default text color */
+    transition-duration: 3s;
+  }
+  
+  .text-wrapper:hover {
+    transition-duration: 0.5s;
+    color: #E21818; /* Change text color on hover */
+  }
+  

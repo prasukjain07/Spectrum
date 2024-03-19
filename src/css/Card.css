@@ -1,0 +1,70 @@
+.profile-card {
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 50px;
+    transition: transform 0.7s, opacity 0.7s;
+    border-radius: 1rem;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s;
+}
+
+.profile-card:hover .img {
+    transform: translateY(-60px);
+}
+
+.caption {
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.7s, transform 0.7s;
+    /* transform: translateY(-1.6rem); */
+}
+
+/* .profile-card:hover .caption {
+    opacity: 1;
+    transform: translateY(-50px);
+} */
+.profile-card:hover .name {
+    opacity: 1;
+    transform: translateY(-45px);
+}
+.profile-card:hover .comittee {
+    opacity: 1;
+    transform: translateY(-75px);
+}
+
+.profile-card img {
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.name {
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s;
+}
+
+.comittee {
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s;
+}
+
+.text-black {
+    color: #000000;
+}
